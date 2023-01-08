@@ -1,0 +1,21 @@
+# Injecting a Watermark into a Video
+With all the mathematics and understanding now. All we care is if this system works and i can say it works!
+
+Below is attached a Jypyter Notebook of my experiment using Open-CV.
+
+### Objective: Inject a watermark into a video
+
+In this notebook i attempt to inject a transparent watermark into a
+video. The watermark is a png image with transparent background. The
+watermark is injected into the video by overlaying the watermark on the
+video frame by frame. The watermark is overlayed on the video frame by
+frame using the following steps:
+
+1.  Read the video frame by frame
+2.  Resize the watermark to the size of the video frame
+3.  Overlay the watermark on the video frame
+4.  Write the video frame to the output video buffer
+5.  Repeat steps 1-4 for all the video frames
+6.  Save the output video buffer to a file
+7.  Display the output video with watermark transparently overlayed on
+    the video
